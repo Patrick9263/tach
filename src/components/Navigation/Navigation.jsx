@@ -3,9 +3,9 @@ import './Navigation.scss'
 
 function Navigation() {
   const sections = [
-    'Goals-based planning',
-    'Seamless tax integration',
-    'Investment smarts',
+    'Home',
+    'How to Invest',
+    'About Us',
   ]
 
   return (
