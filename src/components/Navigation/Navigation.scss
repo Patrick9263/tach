@@ -1,0 +1,36 @@
+.navigation {
+  width: 18rem;
+
+  .section {
+    padding: 0 1rem 0 0;
+
+    font-size: 28px;
+    font-weight: bold;
+
+    .divider {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .hr-container {
+        width: 90%;
+
+        hr {
+          margin-top: 1.7rem;
+          color: rgba(240, 240, 240, 0.6);
+        }
+      }
+
+      .divider-index {
+        align-self: flex-start;
+        font-size: 16px;
+        color: rgb(53, 170, 135);
+        margin-right: 2rem;
+      }
+    }
+
+    .section-name {
+      width: 90%;
+    }
+  }
+}

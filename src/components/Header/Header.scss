@@ -1,0 +1,29 @@
+.app-header {
+  max-width: 600px;
+
+  h1 {
+    text-align: left;
+    max-width: 350px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .header-text {
+    line-height: 32px;
+    font-size: 18px;
+  }
+
+  .learn-more-link-container {
+    margin-top: 3rem;
+
+    .learn-more-link {
+      color: #51aac5;
+      text-decoration: none;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
